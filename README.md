@@ -7,12 +7,12 @@ For services use XML.
 Please implement an API for a todo list.
 If there are any questions, please don't hesitate to contact me.
 
-# API
+## API
 Create a RESTful API to access the two entities explained below (CRUD).
 Your endpoints should fit the generally suggested REST standards.
 Do not use a rest bundle like FOSRestBundle, that would defeat the purpose of this exercise.
 
-# Entities
+## Entities
 Create two entities (and their repositories):
 
 * `List`
@@ -24,7 +24,7 @@ Items are part of a list.
 One item always belongs to one list.
 One list can have many items.
 
-# Services
+## Services
 Create at least two API services:
 
 * `ListService`
@@ -40,5 +40,5 @@ Implement at least the following methods for the managers:
 * `findById($id)`
 
 
-# Tests
+## Tests
 Also submit all tests you wrote
