@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\SomeBundle\Tests\Controller;
+namespace Apheleia\ExerciseBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
@@ -10,8 +10,8 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/hello/Fabien');
+        $crawler = $client->request('GET', '/api/list/1');
 
-        $this->assertTrue($crawler->filter('html:contains("Hello Fabien")')->count() > 0);
+        $this->assertTrue($crawler->filter('html:contains("List (ID 1)")')->count() > 0);
     }
 }

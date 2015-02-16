@@ -1,4 +1,4 @@
-vendor_some:
-    resource: "@VendorSomeBundle/Controller/"
+apheleia_exercise:
+    resource: "@ApheleiaExerciseBundle/Controller/"
     type: annotation
-    prefix:   /
+    prefix: /
