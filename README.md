@@ -32,7 +32,7 @@ Create at least two API services:
 
 These services manage the items in relation to the API.
 
-Create Manager Services (e.g. `ItemManager)`, which manage database operations on entities.
+Create Manager Services (e.g. `ItemManager`), which manage database operations on entities.
 Implement at least the following methods for the managers:
 
 * `create()`
@@ -41,4 +41,5 @@ Implement at least the following methods for the managers:
 
 
 ## Tests
-Also submit all tests you wrote
+Also submit all tests you wrote.
+You can run tests with `bin/phpunit -c app`.
