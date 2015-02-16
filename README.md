@@ -7,6 +7,10 @@ For services use XML.
 Please implement an API for a todo list.
 If there are any questions, please don't hesitate to contact me.
 
+---
+**Do not make your solution publicly available until after the interviews, so nobody can copy your solution.**
+---
+
 ## API
 Create a RESTful API to access the two entities explained below (CRUD).
 Your endpoints should fit the generally suggested REST standards.
